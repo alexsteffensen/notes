@@ -56,8 +56,61 @@ $M3$: sequence 4
 
 c)
 
-$M1$:
+$M1$: $L(M1)=\{w/w=Ua, U=\{b\}^*\}$
 
-$M2$:
+$M2$: $L(M2)=\{w/w=U, U=\{b\}^*\}$
 
-$M3$:
+$M3$: $L(M1)=\{w/w=Ua$ or $w=U, U=\{b\}^*\}$
+
+## Exercise 3
+
+![FA](pics/ex2.3.png "FA")
+
+Language for this FA: $L(M4)=\{w/w=aUa$ or $w=bUb, U=\{a,b\}^*\} $
+
+## Exercise 4
+
+(i)
+![FA](pics/ex2.4.1.png "FA")
+
+(ii)
+![FA](pics/ex2.4.2.png "FA")
+
+(iii)
+![FA](pics/ex2.4.3.png "FA")
+
+(iv)
+![FA](pics/ex2.4.4.png "FA")
+
+(v)
+![FA](pics/ex2.4.5.png "FA")
+
+## Exercise 5
+
+![FA](pics/ex2.5.1.png "FA")
+2. see solutions
+3. (i) and (ii)
+![FA](pics/ex2.5.3.png "FA")
+
+(iii) same as 5.1
+4. See slide 28 lecture 2 or solutions
+
+## Exercise 6
+
+(i)
+
+Nonaccepted: 10, 1, 1010, 10100, 1001
+
+Accepted: 0, 102, 1002, 10002, 100002
+
+(ii)
+
+proved by induction
+
+base step for when word length is 0
+
+inductive step for when word length is > 0
+
+see solutions for the whole proof
+
+(iii)
